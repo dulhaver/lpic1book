@@ -39,7 +39,7 @@ It is important to understand because at this stage, you have very little contro
 
 1. Motherboard Firmware does a PowerOnSelfTest(POST)
 2. Motherboard loads the bootloader
-3. Bootloader loads the Linux Kernel-based on its configs/commands
+3. Bootloader loads the Linux Kernel (based on its configs/commands)
 4. The Kernel loads and prepares the system (root filesystem) and runs the initialization program
 5. Init program start the service such as web server, graphical interface, networking, etc.
 
